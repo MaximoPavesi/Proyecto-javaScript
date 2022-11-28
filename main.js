@@ -21,7 +21,7 @@ let valorPorsche = 160000
 let valorMaserati = 120000
 
 while(true){
-    let num = prompt("porfavor ingrese su numero de DNI, escriba salir para terminar");
+    let num = prompt("por favor ingrese su numero de DNI, escriba salir para terminar");
 
     if(!isNaN(num) && num != null && num != ""){
         alert("Muchas gracias, continuemos");
@@ -37,31 +37,31 @@ alert("Trabajamos con Ferrari, Ford, Mclaren, Maserati, Chevrolet, Renault, Audi
 
 let modelo = prompt("Ingrese su modelo de auto: ");
 if (modelo === "Ferrari") {
-    alert ("El total de su suguro mensual es de: " + (valorFerrari + valorFerrari*(10/100)));
+    alert ("El total de su seguro mensual es de: " + (valorFerrari + valorFerrari*(10/100)));
 } else if (modelo === "Ford"){
-    alert ("El total de su suguro mensual es de: " + (valorFord + valorFord*(10/100)));
+    alert ("El total de su seguro mensual es de: " + (valorFord + valorFord*(10/100)));
 } else if (modelo === "Mclaren"){
-    alert ("El total de su suguro mensual es de: " + (valorMclaren + valorMclaren*(10/100)));
+    alert ("El total de su seguro mensual es de: " + (valorMclaren + valorMclaren*(10/100)));
 } else if (modelo === "Maserati"){
-    alert ("El total de su suguro mensual es de: " + (valorMaserati + valorMaserati*(10/100)));
+    alert ("El total de su seguro mensual es de: " + (valorMaserati + valorMaserati*(10/100)));
 } else if (modelo === "Chevrolet"){
-    alert ("El total de su suguro mensual es de: " + (valorChevrolet + valorChevrolet*(10/100)));
+    alert ("El total de su seguro mensual es de: " + (valorChevrolet + valorChevrolet*(10/100)));
 } else if (modelo === "Renault"){
-    alert ("El total de su suguro mensual es de: " + (valorRenault + valorRenault*(10/100)));
+    alert ("El total de su seguro mensual es de: " + (valorRenault + valorRenault*(10/100)));
 } else if (modelo === "Audi"){
-    alert ("El total de su suguro mensual es de: " + (valorAudi + valorAudi*(10/100)));
+    alert ("El total de su seguro mensual es de: " + (valorAudi + valorAudi*(10/100)));
 } else if (modelo === "Bmw"){
-    alert ("El total de su suguro mensual es de: " + (valorBmw + valorBmw*(10/100)));
+    alert ("El total de su seguro mensual es de: " + (valorBmw + valorBmw*(10/100)));
 } else if (modelo === "Porsche"){
-    alert ("El total de su suguro mensual es de: " + (valorPorsche + valorPorsche*(10/100)));
+    alert ("El total de su seguro mensual es de: " + (valorPorsche + valorPorsche*(10/100)));
 } else {
     alert ("Modelo de auto que no trabajamos");
 }
 
-alert("Los pagos se acreditan a una tarjeta");
+alert("Los pagos se acreditan a una tarjeta de crédito o débito");
 
 while(true){
-    let num = prompt("porfavor ingrese el numero de su tarjeta, escriba salir para terminar");
+    let num = prompt("por favor ingrese el numero de su tarjeta, escriba salir para terminar");
 
     if(!isNaN(num) && num != null && num != ""){
         alert("Muchas gracias por contratar Maximo's Seguros");
